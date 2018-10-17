@@ -1,9 +1,343 @@
 {
   "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
-  "profile": { "name": "typicode" }
+  "profile": {
+    "name": "typicode"
+  },
+  "urbanizaciones": [
+    {
+      "id": 1,
+      "name": "Cardify",
+      "address": "0 6th Street",
+      "phone": "695-146-5847",
+      "urlImage": "http://dummyimage.com/109x107.bmp/cc0000/ffffff"
+    },
+    {
+      "id": 2,
+      "name": "Keylex",
+      "address": "0 Myrtle Road",
+      "phone": "945-920-1725",
+      "urlImage": "http://dummyimage.com/230x111.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 3,
+      "name": "Konklab",
+      "address": "670 Spaight Center",
+      "phone": "745-757-2912",
+      "urlImage": "http://dummyimage.com/174x130.bmp/cc0000/ffffff"
+    },
+    {
+      "id": 4,
+      "name": "Duobam",
+      "address": "5040 Eastwood Center",
+      "phone": "976-799-9427",
+      "urlImage": "http://dummyimage.com/139x105.jpg/ff4444/ffffff"
+    },
+    {
+      "id": 5,
+      "name": "Sub-Ex",
+      "address": "37148 Meadow Vale Hill",
+      "phone": "952-377-7116",
+      "urlImage": "http://dummyimage.com/149x142.bmp/5fa2dd/ffffff"
+    },
+    {
+      "id": 6,
+      "name": "Veribet",
+      "address": "97819 Prairieview Way",
+      "phone": "202-576-6347",
+      "urlImage": "http://dummyimage.com/167x233.jpg/cc0000/ffffff"
+    },
+    {
+      "id": 7,
+      "name": "Alphazap",
+      "address": "4 Mallard Park",
+      "phone": "604-621-0312",
+      "urlImage": "http://dummyimage.com/113x117.png/cc0000/ffffff"
+    },
+    {
+      "id": 8,
+      "name": "Home Ing",
+      "address": "21 Division Plaza",
+      "phone": "822-134-4273",
+      "urlImage": "http://dummyimage.com/129x222.jpg/cc0000/ffffff"
+    },
+    {
+      "id": 9,
+      "name": "Overhold",
+      "address": "3685 Loftsgordon Point",
+      "phone": "132-381-8941",
+      "urlImage": "http://dummyimage.com/189x233.png/cc0000/ffffff"
+    },
+    {
+      "id": 10,
+      "name": "Asoka",
+      "address": "45 Barnett Circle",
+      "phone": "446-976-7652",
+      "urlImage": "http://dummyimage.com/202x124.jpg/dddddd/000000"
+    },
+    {
+      "id": 11,
+      "name": "Fix San",
+      "address": "96993 Hansons Alley",
+      "phone": "886-637-8170",
+      "urlImage": "http://dummyimage.com/213x248.jpg/dddddd/000000"
+    },
+    {
+      "id": 12,
+      "name": "Cookley",
+      "address": "256 Cordelia Junction",
+      "phone": "226-948-1453",
+      "urlImage": "http://dummyimage.com/225x198.bmp/5fa2dd/ffffff"
+    },
+    {
+      "id": 13,
+      "name": "Treeflex",
+      "address": "44 Ramsey Avenue",
+      "phone": "121-632-7899",
+      "urlImage": "http://dummyimage.com/149x103.png/5fa2dd/ffffff"
+    },
+    {
+      "id": 14,
+      "name": "Konklux",
+      "address": "46030 Rieder Terrace",
+      "phone": "336-699-9389",
+      "urlImage": "http://dummyimage.com/105x212.jpg/ff4444/ffffff"
+    },
+    {
+      "id": 15,
+      "name": "Alphazap",
+      "address": "972 Vermont Court",
+      "phone": "863-418-2576",
+      "urlImage": "http://dummyimage.com/225x109.png/dddddd/000000"
+    },
+    {
+      "id": 16,
+      "name": "Alpha",
+      "address": "667 Lerdahl Hill",
+      "phone": "371-809-5313",
+      "urlImage": "http://dummyimage.com/194x243.bmp/5fa2dd/ffffff"
+    },
+    {
+      "id": 17,
+      "name": "Zathin",
+      "address": "33 Hazelcrest Park",
+      "phone": "387-895-3573",
+      "urlImage": "http://dummyimage.com/148x197.png/ff4444/ffffff"
+    },
+    {
+      "id": 18,
+      "name": "Tres-Zap",
+      "address": "20824 Hoard Center",
+      "phone": "757-921-1080",
+      "urlImage": "http://dummyimage.com/153x185.bmp/ff4444/ffffff"
+    },
+    {
+      "id": 19,
+      "name": "Home Ing",
+      "address": "43298 Valley Edge Place",
+      "phone": "189-934-6374",
+      "urlImage": "http://dummyimage.com/200x174.bmp/5fa2dd/ffffff"
+    },
+    {
+      "id": 20,
+      "name": "Namfix",
+      "address": "11 Northridge Junction",
+      "phone": "943-335-6713",
+      "urlImage": "http://dummyimage.com/233x189.jpg/ff4444/ffffff"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Bobinette",
+      "last_name": "Lening",
+      "email": "blening0@instagram.com",
+      "gender": "Female",
+      "ip_address": "127.182.197.82",
+      "password": "IfdF4OXo"
+    },
+    {
+      "id": 2,
+      "first_name": "Onfroi",
+      "last_name": "Stammers",
+      "email": "ostammers1@behance.net",
+      "gender": "Male",
+      "ip_address": "123.127.39.90",
+      "password": "6WLLThQ46L1"
+    },
+    {
+      "id": 3,
+      "first_name": "Bambi",
+      "last_name": "Flag",
+      "email": "bflag2@howstuffworks.com",
+      "gender": "Female",
+      "ip_address": "191.242.0.255",
+      "password": "oQcfecaX"
+    },
+    {
+      "id": 4,
+      "first_name": "Cassandry",
+      "last_name": "Patillo",
+      "email": "cpatillo3@ocn.ne.jp",
+      "gender": "Female",
+      "ip_address": "185.95.144.102",
+      "password": "dnUR8GTwVr"
+    },
+    {
+      "id": 5,
+      "first_name": "Aili",
+      "last_name": "Yewman",
+      "email": "ayewman4@netscape.com",
+      "gender": "Female",
+      "ip_address": "217.137.170.46",
+      "password": "W2MqlM6IEl"
+    },
+    {
+      "id": 6,
+      "first_name": "Barde",
+      "last_name": "Middis",
+      "email": "bmiddis5@wikimedia.org",
+      "gender": "Male",
+      "ip_address": "244.106.108.213",
+      "password": "6P2sY6oeVU2"
+    },
+    {
+      "id": 7,
+      "first_name": "Tarah",
+      "last_name": "Flement",
+      "email": "tflement6@wordpress.org",
+      "gender": "Female",
+      "ip_address": "227.129.129.33",
+      "password": "TUZ8PW"
+    },
+    {
+      "id": 8,
+      "first_name": "Prissie",
+      "last_name": "Geroldo",
+      "email": "pgeroldo7@arizona.edu",
+      "gender": "Female",
+      "ip_address": "116.175.154.175",
+      "password": "ecaMz4Qqza"
+    },
+    {
+      "id": 9,
+      "first_name": "Thomasina",
+      "last_name": "Meagher",
+      "email": "tmeagher8@theglobeandmail.com",
+      "gender": "Female",
+      "ip_address": "102.82.154.43",
+      "password": "JvgpZcO"
+    },
+    {
+      "id": 10,
+      "first_name": "Miranda",
+      "last_name": "Pounder",
+      "email": "mpounder9@forbes.com",
+      "gender": "Female",
+      "ip_address": "252.255.219.172",
+      "password": "v4Zlxk"
+    },
+    {
+      "id": 11,
+      "first_name": "Alexandre",
+      "last_name": "Trimmell",
+      "email": "atrimmella@dyndns.org",
+      "gender": "Male",
+      "ip_address": "176.132.172.153",
+      "password": "Rxov3y5x6"
+    },
+    {
+      "id": 12,
+      "first_name": "Fanechka",
+      "last_name": "Longhi",
+      "email": "flonghib@state.tx.us",
+      "gender": "Female",
+      "ip_address": "217.175.10.148",
+      "password": "vM1kGC"
+    },
+    {
+      "id": 13,
+      "first_name": "Jo",
+      "last_name": "Christofe",
+      "email": "jchristofec@slate.com",
+      "gender": "Female",
+      "ip_address": "108.184.110.32",
+      "password": "xQbkAE"
+    },
+    {
+      "id": 14,
+      "first_name": "Ephrayim",
+      "last_name": "Stryde",
+      "email": "estryded@nyu.edu",
+      "gender": "Male",
+      "ip_address": "141.159.224.98",
+      "password": "aIurU9Il"
+    },
+    {
+      "id": 15,
+      "first_name": "Zondra",
+      "last_name": "Windrum",
+      "email": "zwindrume@blinklist.com",
+      "gender": "Female",
+      "ip_address": "209.7.48.55",
+      "password": "HzsMoskP7"
+    },
+    {
+      "id": 16,
+      "first_name": "Shem",
+      "last_name": "Mendoza",
+      "email": "smendozaf@wp.com",
+      "gender": "Male",
+      "ip_address": "20.239.129.1",
+      "password": "1EGoID5ABFD"
+    },
+    {
+      "id": 17,
+      "first_name": "Ravi",
+      "last_name": "Vaughan-Hughes",
+      "email": "rvaughanhughesg@ibm.com",
+      "gender": "Male",
+      "ip_address": "136.66.212.25",
+      "password": "yNYwnj8LA"
+    },
+    {
+      "id": 18,
+      "first_name": "Alexandr",
+      "last_name": "Frid",
+      "email": "afridh@usgs.gov",
+      "gender": "Male",
+      "ip_address": "167.204.196.18",
+      "password": "mVaCvlsPRL"
+    },
+    {
+      "id": 19,
+      "first_name": "Remington",
+      "last_name": "Trotter",
+      "email": "rtrotteri@eventbrite.com",
+      "gender": "Male",
+      "ip_address": "42.124.240.77",
+      "password": "yBgOun"
+    },
+    {
+      "id": 20,
+      "first_name": "Lindsey",
+      "last_name": "Beyer",
+      "email": "lbeyerj@europa.eu",
+      "gender": "Male",
+      "ip_address": "142.125.41.64",
+      "password": "UrYtuVT"
+    }
+  ]
 }
